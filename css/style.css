@@ -41,7 +41,7 @@ a:hover{
 }
 .hero{
 	padding-top: 110px;
-	background-image: url("../img/img1.jpg");
+	background-image: url("../img/hero_unit.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
