@@ -1,7 +1,7 @@
 header
 {
 	position: fixed;
-	background-color:#e3e3e3 ;
+	background-color: #e3e3e3 ;
 	width: 100%;
 	height:50px;
 	font-family: 'Nunito', sans-serif;
@@ -11,14 +11,14 @@ main{
 }
 
 .logo{
-	width:15%;
+	width:20%;
 	font-size: 30px;
 	text-shadow: 5px -1px 0 white, 6px -2px 0 grey;
 	float: left;
 	clear: right;
 }
 nav{
-	width: 85%;
+	width: 80%;
 }
 nav ul li{
 	display: inline;
@@ -31,10 +31,10 @@ a{
 
 a:hover{
 	font-size: 25px;
-	color:blue;
+	color: #05086E;
 }
 .hero{
-	padding-top: 130px;
+	padding-top: 110px;
 	background-image: url("../img/airline.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -45,6 +45,7 @@ a:hover{
 .hero div{
 	margin:auto;
 	width: 50%;
+	line-height: 40px;
 	background:rgba(0,0,0,0.2);
 	text-align: center;
 }
