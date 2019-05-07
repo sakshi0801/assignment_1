@@ -1,7 +1,7 @@
 header
 {
 	position: fixed;
-	background-color: #e3e3e3 ;
+	background-color: white;
 	width: 100%;
 	height:50px;
 	font-family: 'Nunito', sans-serif;
@@ -11,31 +11,37 @@ main{
 }
 
 .logo{
+	margin-left: 20px;
 	width:20%;
 	font-size: 30px;
-	text-shadow: 5px -1px 0 white, 6px -2px 0 grey;
 	float: left;
 	clear: right;
+	color: #001b94;
 }
 nav{
-	width: 80%;
+	width: 75%%;
+}
+nav ul{
+	padding-top: 10px;
+	float: right;
 }
 nav ul li{
 	display: inline;
 	font-size: 18px;
+	padding-right: 20px;
 }
+
 a{
 	text-decoration: none;
-	color: black;
+	color: #666;
 }
 
 a:hover{
-	font-size: 25px;
-	color: #05086E;
+	color: black;
 }
 .hero{
 	padding-top: 110px;
-	background-image: url("../img/airline.jpg");
+	background-image: url("../img/img1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -43,20 +49,19 @@ a:hover{
 	height: 400px;
 }
 .hero div{
-	margin:auto;
+	float: left;
 	width: 50%;
 	line-height: 40px;
-	background:rgba(0,0,0,0.2);
 	text-align: center;
 }
 
 .hero h1{
-	position: relative;
 	margin-top: 100px;
 	font-size: 45px;
-	color: #05086E;
+	color: white;
 }
 .hero p{
+	color: white;
 	font-size: 25px;
 }
 .hero button{
@@ -65,13 +70,17 @@ a:hover{
 	color: #05086E;
 
 }
+.heading{
+	font-size: 25px;
+	color:#001b94; 
+}
 .detail{
-	font-size: 15px;
+	font-size: 18px;
+	color:#666;
 }
-.container_12{
-	padding-top: 100px;
+.services{
+	padding-top: 50px;
 }
-
 .tagline{
 	font-size:20px;
 	background-color: #e3e3e3;
@@ -79,7 +88,7 @@ a:hover{
 }
 
 .places{
-	padding-top: 20px;
+	padding-top: 40px;
 	width:960px;
 	margin:auto;
 }
@@ -95,9 +104,12 @@ a:hover{
 }
 footer{
 	clear: both;
-	background-color: #e3e3e3;
+	font-family: 'Nunito', sans-serif;
+}
+footer h3{
+	margin:0px;
 }
 footer ul li{
-	font-size: 20px;
-	display: inline;
+	list-style-type: none;
+	font-size: 18px;
 }
